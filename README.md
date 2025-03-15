@@ -1,4 +1,4 @@
-<h2 align="center">:star: Activity</h2>
+<h2 align="center">:star: Activities</h2>
 
 ![](./profile-3d-contrib/profile-night-green.svg)
 
