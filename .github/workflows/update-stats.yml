@@ -30,7 +30,7 @@ jobs:
       - name: Commit & Push
         run: |
           git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@github.com"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile-stats/*.svg
           if git commit -m "chore: Update stats card"; then
             git push
