@@ -1,14 +1,14 @@
-name: GitHub-Profile-3D-Contrib
+name: Update GitHub Activities
 
 on:
-  schedule: # 03:00 JST == 18:00 UTC
+  schedule:
     - cron: "0 18 * * *"
   workflow_dispatch:
 
 jobs:
-  build:
+  generate-activities:
     runs-on: ubuntu-latest
-    name: generate-github-profile-3d-contrib
+    name: Generate 3D Contribution Graph
     steps:
       - uses: actions/checkout@v6
       - uses: yoshi389111/github-profile-3d-contrib@0.6.0
