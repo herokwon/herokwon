@@ -17,8 +17,9 @@ jobs:
           USERNAME: ${{ github.repository_owner }}
       - name: Commit & Push
         run: |
-          git config user.name herokwon
-          git config user.email contact@herokwon.dev
-          git add -A .
-          git commit -m "generated"
-          git push
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@github.com"
+          git add profile-3d-contrib/*.svg
+          if git commit -m "chore: Update 3d contribution graph"; then
+            git push
+          fi
