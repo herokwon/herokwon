@@ -27,4 +27,5 @@ jobs:
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile-3d-contrib/*.svg
           git commit -m "chore: Update 3d contribution graph"
+          git pull --rebase --autostash origin main
           git push
