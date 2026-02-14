@@ -36,6 +36,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile-stats/*.svg
+          if git diff --cached --quiet; then
+            echo "✅ No changes to commit."
+            exit 0
+          fi
           git commit -m "chore: Update stats card" || exit 0
           git pull --rebase --autostash origin main
           git push

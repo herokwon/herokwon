@@ -26,6 +26,10 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add profile-3d-contrib/*.svg
+          if git diff --cached --quiet; then
+            echo "✅ No changes to commit."
+            exit 0
+          fi
           git commit -m "chore: Update 3d contribution graph"
           git pull --rebase --autostash origin main
           git push
