@@ -9,7 +9,7 @@
         aria-labelledby="descId"
       >
         <title id="titleId">HeroKwon's GitHub Stats, Rank: B+</title>
-        <desc id="descId">Total Stars Earned: 44, Total Commits  (last year) : 1, Total PRs: 359, Total Issues: 73, Contributed to (last year): 1</desc>
+        <desc id="descId">Total Stars Earned: 44, Total Commits  (last year) : 1, Total PRs: 360, Total Issues: 74, Contributed to (last year): 1</desc>
         <style>
           .header {
             font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif;
@@ -73,7 +73,7 @@
         stroke-dashoffset: 251.32741228718345;
       }
       to {
-        stroke-dashoffset: 104.53102935988187;
+        stroke-dashoffset: 104.4498970311375;
       }
     }
   
@@ -192,7 +192,7 @@
         x="219.01"
         y="12.5"
         data-testid="prs"
-      >359</text>
+      >360</text>
     </g>
   </g><g transform="translate(0, 75)">
     <g class="stagger" style="animation-delay: 900ms" transform="translate(25, 0)">
@@ -207,7 +207,7 @@
         x="219.01"
         y="12.5"
         data-testid="issues"
-      >73</text>
+      >74</text>
     </g>
   </g><g transform="translate(0, 100)">
     <g class="stagger" style="animation-delay: 1050ms" transform="translate(25, 0)">
