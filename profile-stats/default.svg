@@ -8,8 +8,8 @@
     <rect x="0.5" y="0.5" width="575.5" height="99%" rx="4.5" fill="#fffefe" stroke="#e4e2e2"/>
     <text x="25" y="45" class="text">Something went wrong! file an issue at https://tiny.one/readme-stats</text>
     <text data-testid="message" x="25" y="55" class="text small">
-      <tspan x="25" dy="18">Resource not accessible by integration</tspan>
-      <tspan x="25" dy="18" class="gray">OK</tspan>
+      <tspan x="25" dy="18">Cannot read properties of undefined (reading 'user')</tspan>
+      <tspan x="25" dy="18" class="gray"></tspan>
     </text>
     </svg>
   
